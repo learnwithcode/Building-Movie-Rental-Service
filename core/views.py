@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.views.generics import ListView
+from django.views.generic import ListView
 from core.models import Movie
 
 class MovieList(ListView):
